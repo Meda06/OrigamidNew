@@ -21,4 +21,9 @@ body {
     color: #555;
     margin: 16px 0;
   }
+
+  #layout{
+    display: flex;
+    flex-direction: row-reverse;
+  }
   

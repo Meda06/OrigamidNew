@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+p{
+    background-color: lightblue;
+}
+
+.px{
+    font-size: 32px;
+}
+
+.em{
+    font-size: 2em;
+}
+
+.rem{
+    font-size: 2rem;
+}
+
+/* rem acompanha o html geral *\
+/* em acompanha o elemento pai *\
+

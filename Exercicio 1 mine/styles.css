@@ -1,0 +1,127 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+body{
+    display: grid;
+    margin-top: 60px;
+}
+
+.tudo{
+    display: grid;
+    gap:60px;
+    justify-items: center; 
+}
+
+.opcoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.opcao{
+    border: 1px solid white;
+    padding: 15px 30px;
+    background: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+
+}
+
+body{
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.bloco1{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+    padding: 40px;
+    gap:20px
+}
+
+.traco{
+    background: red;
+    width: 70px;
+    height: 5px;
+    position: relative;
+    right: 35px;
+    top: 30px;
+}
+
+h1,h2{
+    margin: 0px;
+}
+p{
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.vermais{
+    background: red;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.bloco3{
+    align-self: center;
+    text-align: right;
+    font-size: 64px;
+    padding: 40px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.infoBike{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap:10px 20px;
+    padding: 20px;
+}
+.bloco4{
+    padding: 40px;
+    justify-items: center;
+    background: white;
+}
+
+.infoBike p{
+    grid-column: 2;
+}
+.direito{
+    background-color: white;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2REMpx;
+}
